@@ -1,2 +1,6 @@
-transformers
+SentencePiece
+sacremoses
 streamlit
+torch
+transformers
+tensorflow
