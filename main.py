@@ -3,14 +3,16 @@ import io
 import streamlit as st
 from transformers import MarianTokenizer, TFMarianMTModel
 
-@st.cache(allow_output_mutation=True)
+#@st.cache(allow_output_mutation=True)
+@st.cache_data
 def translation(str_cl):
     batch = tokenizer([str_cl], return_tensors="tf")
     gen = model.generate(**batch)
     tr=tokenizer.batch_decode(gen, skip_special_tokens=True)
     st.write('Рус:', str(tr))
 
-@st.cache(allow_output_mutation=True)
+#@st.cache(allow_output_mutation=True)
+@st.cache_data
 def model_load(a,b):
     return pipeline(a,b)
 
