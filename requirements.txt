@@ -1,7 +1,5 @@
-SentencePiece
-sacremoses
-torch
+tf-keras
 transformers
 tensorflow
 streamlit
-tf-keras
+
