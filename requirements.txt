@@ -1,7 +1,6 @@
 tokenizers
-SentencePiece
+sentencepiece
 tf_keras
-TensorFlow
-transformers
+tensorflow==2.12.0
+transformers==4.30.0
 streamlit
-
