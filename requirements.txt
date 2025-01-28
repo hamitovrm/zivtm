@@ -4,3 +4,4 @@ torch
 transformers
 tensorflow
 streamlit
+tf-keras
