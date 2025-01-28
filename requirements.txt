@@ -1,5 +1,5 @@
 tf-keras
-transformers
+transformers==4.12.0
 tensorflow
 streamlit
 
