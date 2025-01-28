@@ -1,5 +1,6 @@
 tokenizers
 SentencePiece
+TensorFlow
 transformers
 streamlit
 
