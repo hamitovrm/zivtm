@@ -3,7 +3,7 @@ import streamlit as st
 
 client = InferenceClient(
 	provider="hf-inference",
-	api_key="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"
+	api_key="HugginFace_Token"
 )
 
 
