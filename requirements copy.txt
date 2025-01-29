@@ -1,0 +1,6 @@
+tokenizers
+sentencepiece
+tf_keras
+tensorflow==2.12.0
+transformers==4.30.0
+streamlit
